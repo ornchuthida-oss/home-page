@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <section class="login-card">
+        <div class="brand-panel">
+          <div class="brand-badge">T</div>
+          <h1>Create your account</h1>
+          <p>
+            Join thousands of creators and teams building smarter, faster, and more beautifully.
+          </p>
+          <ul class="feature-list">
+            <li>Collaborate in real time</li>
+            <li>Track your progress</li>
+            <li>Scale with confidence</li>
+          </ul>
+        </div>
+
+        <div class="form-panel">
+          <div class="header-row">
+            <span class="eyebrow">Sign up</span>
+            <a href="index.html">Already have an account?</a>
+          </div>
+
+          <h2>Start for free</h2>
+
+          <form class="login-form">
+            <label for="name">Full name</label>
+            <input id="name" type="text" placeholder="John Doe" />
+
+            <label for="email">Email address</label>
+            <input id="email" type="email" placeholder="you@example.com" />
+
+            <label for="password">Password</label>
+            <input id="password" type="password" placeholder="Create a password" />
+
+            <label for="confirm-password">Confirm password</label>
+            <input id="confirm-password" type="password" placeholder="Repeat your password" />
+
+            <div class="options-row">
+              <label class="checkbox-wrap">
+                <input type="checkbox" checked />
+                <span>I agree to the terms</span>
+              </label>
+            </div>
+
+            <button type="submit">Create account</button>
+          </form>
+
+          <div class="divider"><span>or sign up with</span></div>
+
+          <div class="social-row">
+            <button type="button" class="social-btn">Google</button>
+            <button type="button" class="social-btn">GitHub</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
